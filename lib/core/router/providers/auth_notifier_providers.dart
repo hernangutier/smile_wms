@@ -1,4 +1,4 @@
-import 'package:riverpod_annotation/riverpod_annotation.dart';
+import '../../core.dart';
 
 part 'auth_notifier_providers.g.dart';
 
@@ -6,7 +6,7 @@ part 'auth_notifier_providers.g.dart';
 class AuthNotifier extends _$AuthNotifier {
   @override
   bool build() {
-    //---- Verificar el State aqui con el Token 
+    //---- Verificar el State aqui con el Token
     return false;
   }
 
